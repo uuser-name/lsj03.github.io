@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "My Site"
 title_separator          : "-"
-subtitle                 : "Welcom to ESC!" # site tagline that appears below site title in masthead
+subtitle                 : "Welcom!" # site tagline that appears below site title in masthead
 name                     : "lsj03"
-description              : "Extreme Security Club"
+description              : "This is my first website."
 url                      : "https://lsj03.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -39,13 +39,13 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "light" # "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
+    theme                : "default" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch               : #"master"
+    endpoint             : #"https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -93,10 +93,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Suejeong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "**Hello!**"
+  location         : "Daejeon"
   email            :
   links:
     - label: "Email"
